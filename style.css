@@ -39,6 +39,7 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 40px;
 }
 .left-header-buttom{
     width: 450px;
@@ -50,7 +51,9 @@ a{
     font-size: 50px;
     font-weight: bolder;
 }
-
+.header-image{
+    display: flex;
+}
 button{
     display: flex;
     width: 130px;
@@ -74,8 +77,62 @@ button{
     width: 500px;
 }
 img{
+    display: flex;
     border-radius: 20px;
+    height: 300px;
+    width: 500px;
 }
 
+.info{
+    background-color: white;
+    height: 400px;
+    color:#1f2937;
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-right: 200px;
+    padding-top: 50px;
+    
+}
+.info-title{
+    display: flex;
+    font-size: 30px;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+    
+}
+.courses{
+    display: flex;
 
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 300px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+    font-size: 25px;
+    height: 150px;
+    width: 200px;
+   
+}
+.logo{
+    display: flex;
+    padding: 5px;
+    border: 60px;
+    
+}
 
+.logo img{
+    width: 150px;
+    height: 150px;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    height: 500px;
+}
