@@ -123,9 +123,10 @@ img{
 .logo{
     display: flex;
     padding: 5px;
-    border: 60px;
+    border: 4px;
+    border-style: solid;
     border-color: #3882f6;
-    
+    border-radius: 15px;
 }
 
 .logo img{
@@ -158,4 +159,62 @@ img{
     font-size: 30px;
     font-weight: bold;
     justify-content: end;
+}
+.signup{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signupcontent{
+    height: 150px;
+    background-color: #3882f6;
+    width: 850px;
+    border-radius: 10px;
+    display: flex;
+    justify-content:space-around;
+    color: #f9faf8;
+    align-items: center;
+}
+.signupitem{
+    height: 125px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 20px;
+}
+.signuptitle{
+    display: flex;
+    align-items: start;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.signupdetail{
+    display: flex;
+    font-size: 20px;
+}
+
+.signupbuttom{
+    height: 100px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signupbuttom button{
+    border: #e5e7eb;
+    border: 2px;
+    border-style: solid;
+}
+.footer{
+    background-color: #1f2937;
+    height: 75px;
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
